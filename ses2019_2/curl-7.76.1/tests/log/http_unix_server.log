@@ -1,0 +1,4 @@
+18:29:22.458859 exit_signal_handler: 15
+18:29:22.458923 unlink(http59641.sock) = 0 (Success)
+18:29:22.458940 signalled to die
+18:29:22.458974 ========> unix sws (http59641.sock pid: 75710) exits with signal (15)

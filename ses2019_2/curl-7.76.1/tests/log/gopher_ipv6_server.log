@@ -1,0 +1,3 @@
+18:29:22.457961 exit_signal_handler: 15
+18:29:22.458013 signalled to die
+18:29:22.458084 ========> IPv6 sws (port 37765 pid: 73153) exits with signal (15)

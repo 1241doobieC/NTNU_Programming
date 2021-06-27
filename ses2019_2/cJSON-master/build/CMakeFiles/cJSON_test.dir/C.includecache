@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/owner/Desktop/programming/ses2019_2/cJSON-master/cJSON.h
+stddef.h
+-
+
+/home/owner/Desktop/programming/ses2019_2/cJSON-master/test.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+cJSON.h
+/home/owner/Desktop/programming/ses2019_2/cJSON-master/cJSON.h
+

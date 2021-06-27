@@ -1,0 +1,3 @@
+18:29:22.685868 Failed to read input
+18:29:22.685952 Error: FTP-IPv6 server, read zero
+18:29:22.685977 Exited from sysread_or_die() at ./ftpserver.pl line 3072. FTP-IPv6 server, read zero

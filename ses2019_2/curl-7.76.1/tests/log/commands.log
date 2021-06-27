@@ -1,0 +1,1 @@
+../src/curl --output log/curl3016.out  --include --trace-ascii log/trace3016 --trace-time file:///home/owner/Desktop/programming/ses2019_2/curl-7.76.1/tests/ >log/stdout3016 2>log/stderr3016

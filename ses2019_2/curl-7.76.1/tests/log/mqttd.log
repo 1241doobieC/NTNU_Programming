@@ -1,0 +1,3 @@
+18:29:23.457196 exit_signal_handler: 15
+18:29:23.457244 signalled to die, exiting...
+18:29:23.457290 ============> mqttd exits with signal (15)

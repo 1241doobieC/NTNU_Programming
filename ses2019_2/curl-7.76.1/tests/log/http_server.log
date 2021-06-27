@@ -1,0 +1,3 @@
+18:29:22.459339 exit_signal_handler: 15
+18:29:22.459389 signalled to die
+18:29:22.459428 ========> IPv4 sws (port 35313 pid: 76553) exits with signal (15)

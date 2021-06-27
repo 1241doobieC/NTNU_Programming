@@ -1,0 +1,34 @@
+40947071S 資工113 許証淵
+
+hw0501:
+對檔案進行Base64編碼及解碼
+
+hw0502:
+監測CPU使用效率
+
+hw0503:
+顯示搜尋字詞的前時比搜尋結果。
+
+注意！須先安裝libcurl及cJSON
+
+Link: https://github.com/DaveGamble/cJSON#building
+先將.c及.h檔clone下來
+「
+	for CMake
+
+	With CMake, cJSON supports a full blown build system. This way you get the most features. CMake with an equal or higher version than 2.8.5 is supported. With CMake it is recommended to do an out of tree build, meaning the compiled files are put in a directory separate from the source files. So in order to build cJSON with CMake on a Unix platform, make a build directory and run CMake inside it.
+
+	mkdir build
+	cd build
+	cmake ..
+
+	This will create a Makefile and a bunch of other files. You can then compile it:
+
+	make
+
+	And install it with "make install"
+   」
+
+
+hw0504:
+Bonus題

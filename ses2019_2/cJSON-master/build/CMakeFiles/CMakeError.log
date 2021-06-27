@@ -1,0 +1,45 @@
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wcomma failed with the following output:
+Change Dir: /home/owner/Desktop/programming/ses2019_2/cJSON-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b5108/fast && /usr/bin/make -f CMakeFiles/cmTC_b5108.dir/build.make CMakeFiles/cmTC_b5108.dir/build
+make[1]: Entering directory '/home/owner/Desktop/programming/ses2019_2/cJSON-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b5108.dir/src.c.o
+/usr/bin/cc   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -DFLAG_SUPPORTED_Wcomma   -Wcomma -o CMakeFiles/cmTC_b5108.dir/src.c.o   -c /home/owner/Desktop/programming/ses2019_2/cJSON-master/build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command line option '-Wcomma'; did you mean '-Wcomment'?
+make[1]: *** [CMakeFiles/cmTC_b5108.dir/build.make:66: CMakeFiles/cmTC_b5108.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/owner/Desktop/programming/ses2019_2/cJSON-master/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_b5108/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wmissingvariabledeclarations failed with the following output:
+Change Dir: /home/owner/Desktop/programming/ses2019_2/cJSON-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b6260/fast && /usr/bin/make -f CMakeFiles/cmTC_b6260.dir/build.make CMakeFiles/cmTC_b6260.dir/build
+make[1]: Entering directory '/home/owner/Desktop/programming/ses2019_2/cJSON-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b6260.dir/src.c.o
+/usr/bin/cc   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -DFLAG_SUPPORTED_Wmissingvariabledeclarations   -Wmissing-variable-declarations -o CMakeFiles/cmTC_b6260.dir/src.c.o   -c /home/owner/Desktop/programming/ses2019_2/cJSON-master/build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command line option '-Wmissing-variable-declarations'; did you mean '-Wmissing-declarations'?
+make[1]: *** [CMakeFiles/cmTC_b6260.dir/build.make:66: CMakeFiles/cmTC_b6260.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/owner/Desktop/programming/ses2019_2/cJSON-master/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_b6260/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wusedbutmarkedunused failed with the following output:
+Change Dir: /home/owner/Desktop/programming/ses2019_2/cJSON-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_db6ba/fast && /usr/bin/make -f CMakeFiles/cmTC_db6ba.dir/build.make CMakeFiles/cmTC_db6ba.dir/build
+make[1]: Entering directory '/home/owner/Desktop/programming/ses2019_2/cJSON-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_db6ba.dir/src.c.o
+/usr/bin/cc   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -DFLAG_SUPPORTED_Wusedbutmarkedunused   -Wused-but-marked-unused -o CMakeFiles/cmTC_db6ba.dir/src.c.o   -c /home/owner/Desktop/programming/ses2019_2/cJSON-master/build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command line option '-Wused-but-marked-unused'
+make[1]: *** [CMakeFiles/cmTC_db6ba.dir/build.make:66: CMakeFiles/cmTC_db6ba.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/owner/Desktop/programming/ses2019_2/cJSON-master/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_db6ba/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
